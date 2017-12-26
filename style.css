@@ -1,0 +1,234 @@
+*IE help */
+header, section, footer, aside, nav, main, article, figure, div, form{
+    display: block; 
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@media (min-width:200px){
+
+
+body {
+	margin-top: 20px;
+    background-image: url("milwaukee.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+#logo {
+	margin: auto;
+	width:80%;
+	height: 200px;
+ 	display: block;
+ 	margin-bottom: 10px;
+ }
+
+ #facebook {
+	margin: auto;
+	width:150px;
+	height: 75px;
+ 	display: block;
+ 	margin-top: 40px;
+ }
+
+#centerDiv {
+
+	margin: auto;
+	width:80%;
+}
+
+#content {
+
+	margin: auto;
+	width:80%;
+}
+
+#left-side {
+
+	background-color: #212b31;
+	opacity: 0.95;
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+}
+
+
+
+#right-side {
+
+	background-color: #212b31;
+	opacity: 0.95;
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+
+}
+
+.player{
+
+	 width:80%;
+	 height:100px;
+}
+
+}
+
+@media (min-width:500px){
+
+body {
+	margin-top: 75px;
+    background-image: url("milwaukee.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#logo {
+	margin: auto;
+	width:350px;
+	height: 250px;
+ 	display: block;
+ 	margin-bottom: 10px;
+ }
+
+ #facebook {
+	margin: auto;
+	width:200px;
+	height: 80px;
+ 	display: block;
+ 	margin-top: 40px;
+ }
+
+#centerDiv {
+
+	margin: auto;
+	width:80%;
+}
+
+#content {
+
+	margin: auto;
+	width:80%;
+}
+
+#left-side {
+
+	background-color: #212b31;
+	opacity: 0.95;
+	width:49%;
+	text-align: center;
+	display: inline-block;
+	color: white;
+	margin-top: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
+
+
+
+#right-side {
+
+	background-color: #212b31;
+	opacity: 0.95;
+	width:49%;
+	text-align: center;
+	display: inline-block;
+	color: white;
+	margin-top: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+
+}
+.player{
+
+	 width:60%;
+	 height:100px;
+}
+
+
+}
+
+@media (min-width:950px){
+
+body {
+	margin-top: 75px;
+    background-image: url("milwaukee.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#logo {
+	margin: auto;
+	width:350px;
+	height: 250px;
+ 	display: block;
+ 	margin-bottom: 10px;
+ }
+
+ #facebook {
+	margin: auto;
+	width:250px;
+	height: 100px;
+ 	display: block;
+ 	margin-top: 40px;
+ }
+
+#centerDiv {
+
+	margin: auto;
+	width:80%;
+}
+
+#content {
+
+	margin: auto;
+	width:80%;
+}
+
+#left-side {
+
+	background-color: #212b31;
+	opacity: 0.95;
+	width:49%;
+	text-align: center;
+	display: inline-block;
+	color: white;
+	margin-top: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 38px;
+}
+
+
+
+#right-side {
+
+	background-color: #212b31;
+	opacity: 0.95;
+	width:49%;
+	text-align: center;
+	display: inline-block;
+	color: white;
+	margin-top: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 38px;
+
+}
+.player{
+
+	 width:40%;
+	 height:100px;
+}
+
+
+}
